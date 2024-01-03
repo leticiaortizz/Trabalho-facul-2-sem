@@ -1,0 +1,256 @@
+.decoration{text-decoration: none;}
+
+.logotipo{
+    width: 160px;
+}
+
+.contato{
+    text-align: left;
+    margin-left: 100px;
+}
+
+.pagamento{
+    margin-left: 350px;
+    margin-top: -123px;
+    text-align: left;
+}
+
+.carrinho{
+    width: 20px;
+}
+
+div.caroussel {
+    margin-top: 200px;
+    
+}
+
+.padding{
+    padding-bottom: 20px;
+    padding-top: 30px;
+}
+
+.fonte {
+    font-size: 11px;
+}
+
+h4 {font-size: 16px; font-weight: 500;}
+
+.logo-rodape{width: 140px; margin-left: 900px; margin-top: -130px;}
+
+.footer{
+  background-color: #c4c4cc;
+}
+
+
+.vitrine {
+    background-color: #566599;
+  }
+  
+.thumbnails {
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    -moz-align-items: stretch;
+    -webkit-align-items: stretch;
+    -ms-align-items: stretch;
+    align-items: stretch;
+    -moz-justify-content: center;
+    -webkit-justify-content: center;
+    -ms-justify-content: center;
+    justify-content: center;
+    -moz-flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  
+  .thumbnails .box {
+    margin: 0 1em 2em 1em;
+    width: 30%;
+  }
+  
+.box {
+    border-radius: 4px;
+    margin-bottom: 4em;
+    background: #efeff1;
+    text-align: center;
+  }
+  
+.box > :last-child,
+.box > :last-child > :last-child,
+.box > :last-child > :last-child > :last-child {
+    margin-bottom: 0;
+  }
+  
+  .box .image.fit {
+    margin: 0;
+  }
+  
+  .box .image img {
+    border-radius: 4px 4px 0 0;
+  }
+  
+  .box .inner {
+    padding: 1.5em;
+    width: 100% !important;
+  }
+  
+  .box.alt {
+    border: 0;
+    border-radius: 0;
+    padding: 0;
+  }
+  
+  .p-box {
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    color: #ffffff;
+    color: #444242;
+  }
+  
+  .image {
+    border-radius: 4px;
+    border: 0;
+    display: inline-block;
+    position: relative;
+  }
+  
+  .image img {
+    border-radius: 4px;
+    display: block;
+  }
+  
+  .image.left,
+  .image.right {
+    max-width: 40%;
+  }
+  
+  .image.left img,
+  .image.right img {
+    width: 100%;
+  }
+  
+  .image.left {
+    float: left;
+    padding: 0 1.5em 1em 0;
+    top: 0.25em;
+  }
+  
+  .image.right {
+    float: right;
+    padding: 0 0 1em 1.5em;
+    top: 0.25em;
+  }
+  
+  .image.fit {
+    display: block;
+    margin: 0 0 2em 0;
+    width: 100%;
+  }
+  
+  .image.fit img {
+    width: 100%;
+  }
+  
+  .image.main {
+    display: block;
+    margin: 0 0 3em 0;
+    width: 100%;
+  }
+  
+  .image.main img {
+    width: 100%;
+  }
+  
+  .button {
+    background-color: #000000;
+    border-radius: 10px;
+    border: 0;
+    color: #ffffff !important;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 400;
+    height: 2.85em;
+    line-height: 2.95em;
+    padding: 0 1.5em;
+    text-align: center;
+    text-decoration: none;
+    white-space: nowrap;
+  }
+  
+  .button:hover {
+    background-color: #1d1d20;
+  }
+  
+  .button.fit {
+    display: block;
+    margin: 0 0 1em 0;
+    width: 100%;
+  }
+  
+  
+  #main {
+    padding: 1em 0 2em 0;
+  }
+  
+  #main .inner {
+    width: 90%;
+    max-width: 80em;
+    margin: 0 auto;
+    font-family: sans-serif;
+  }
+  
+  #main .inner a {
+    text-decoration: none;
+  }
+  
+  .inner h3 {
+    font-size: 20px;
+    color: #232b4e;
+  }
+  
+  .paginacao {
+    display: inline-block;
+    margin-left: 600px;
+    margin-bottom: 10px;
+     }
+  
+  .paginacao a {
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+  }
+  
+  .paginacao a.active {
+    background-color: #7B8A99;
+    border: 1px solid #a298f0;
+  }
+  
+  .paginacao a:hover:not(.active) {
+    background-color: #a6b8d6;
+  }
+  
+  .paginacao a:first-child {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
+  
+  .row p {
+    color: #fff;
+    line-height: 25px;
+    font-family: sans-serif;
+  }
+  
+  .row h2,
+  h3 {
+    color: #fff;
+  }
+  
+  .row h2 {
+    font-size: 10px;
+    font-family: sans-serif;
+  }
+  

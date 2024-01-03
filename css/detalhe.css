@@ -1,0 +1,168 @@
+.decoration{text-decoration: none;}
+
+.logotipo{
+    width: 160px;
+}
+
+.contato{
+    text-align: left;
+    margin-left: 100px;
+}
+
+.pagamento{
+    margin-left: 350px;
+    margin-top: -123px;
+    text-align: left;
+}
+
+.carrinho{
+    width: 20px;
+}
+
+.login{
+    width: 20px;
+}
+
+div.caroussel {
+    margin-top: 200px;
+    
+}
+
+.padding{
+    padding-bottom: 20px;
+    padding-top: 30px;
+}
+
+.fonte {
+    font-size: 11px;
+}
+
+h4 {font-size: 16px; font-weight: 500;}
+
+.logo-rodape{width: 140px; margin-left: 900px; margin-top: -130px;}
+
+.footer{
+    background-color: #c4c4cc;
+}
+
+body{background-color: #f5f1fe;}
+
+
+
+
+.produto{
+    margin-left: 150px;
+    margin-top: 100px;
+    border-radius: 50%;
+    
+}
+
+.transparente{
+    margin-left: 150px;
+    margin-top: 100px;
+    border-radius: 20px;
+    position: absolute;
+    opacity: 0.7;
+}
+
+
+.titulo{
+    margin-top: -480px;
+    margin-left: 760px;
+    font-family: 'Segoe UI';
+    font-style: italic;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.infos{
+    margin-left: 760px;
+    
+}
+
+.valor{
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 400;
+    padding-top: 8px;
+}
+
+.tamanho{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+}
+
+.descricao{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    text-align: justify;
+    width: 520px;
+}
+
+#more {display: none;}
+
+.extras{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px;
+}
+
+.espessura{
+    font-weight: 500;
+}
+
+.saber{
+    border:none;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 12px;
+    background-color: rgb(205, 206, 214);
+}
+
+.comprar{
+    border:none;
+    border-radius: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 30px;
+    padding-left: 30px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    background-color: rgb(176, 169, 190);
+    color: rgb(20, 20, 34);
+    margin-left: 1090px;
+    margin-top: -70px;
+    position: absolute;
+}
+
+.adicionais{
+    margin-left: 150px;
+    width: 525px;
+    text-align: justify;
+}
+
+li{padding-bottom: 5px;}
+
+h2{
+    font-family: 'Segoe UI';
+    font-style: italic;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.compo{
+    border: 1px solid rgb(205, 206, 214);
+    border-radius: 20px;
+    padding-top: 5px;
+    padding-right: 20px;
+    padding-left: 20px;
+    
+    margin-left: 750px;
+    margin-top: -240px;
+    width: 550px;
+}
+
+.justificar{text-align: justify;
+}
+
+

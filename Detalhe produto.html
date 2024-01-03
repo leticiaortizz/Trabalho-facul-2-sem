@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CREME HIDRATANTE LAVANDA</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="Bootstrap\css\bootstrap.css">
+    <script src="Bootstrap\js\bootstrap.min.js"></script>
+  
+
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+<link rel="stylesheet" href="css/detalhe.css">
+
+<link rel="icon" href="img/logo.png">
+
+</head>
+
+<body>
+
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-wide w3-padding w3-card">
+    <img class="logotipo" src="img/marca.png">
+    
+    <div class="w3-right w3-hide-small">
+      <a href="Home.html" class="w3-bar-item w3-button decoration">HOME</a>
+      <a href="Produtos.html" class="w3-bar-item w3-button decoration">PRODUTOS</a>
+      <a href="Cadastro.html" class="w3-bar-item w3-button decoration">CADASTRO</a>
+      <a href="Login.html" class="w3-bar-item w3-button decoration"><img class="login" src="img/pessoa.png"></a>
+      <a href="" class="w3-bar-item w3-button decoration"><img class="carrinho" src="img/carro.png"></a>
+    </div>
+  </div>
+</div>
+
+    <img class="transparente" src="img/produto.jpg">
+    <img class="produto" src="img/produto.jpg">
+
+    
+
+    <h1 class="titulo">Creme Hidratante Corporal <br>Lavanda - Charm</h1>
+    
+    <div class="infos">
+        <p class="valor">R$ 59,99</p>
+        <p class="tamanho">TAMANHO &nbsp&nbsp&nbsp|&nbsp&nbsp&nbsp 250g</p>
+        <br>
+        <p class="descricao">Hidrata profundamente até a pele mais ressecada, deixando-a macia
+            e regenerada. Fácil de espalhar, alta absorção e sem sensação de pele 
+            grudenta. Fragrância inconfundível de lavanda que permanece na sua 
+            pele por até 12 horas.<br>
+            <br>
+            Produto Vegano e Cruelty Free: Não contém ingredientes de origem
+            animais nem testa em animais.</p>
+            
+            <p class="extras"><b class="espessura">Quando Usar</b><span id="dots"></span><span id="more"><br>
+                Após o banho;<br>
+                Ao longo do dia para reforçar a hidratação;<br>
+                Pós-depilação para acalmar a pele das axilas, pernas e virilha.<br>
+                Validade: 30/09/2023<br>
+                <br>
+            </span></p>
+
+            <button class="saber" onclick="myFunction()" id="myBtn">Saiba mais</button>
+            <script>
+                function myFunction() {
+                  var dots = document.getElementById("dots");
+                  var moreText = document.getElementById("more");
+                  var btnText = document.getElementById("myBtn");
+                
+                  if (dots.style.display === "none") {
+                    dots.style.display = "inline";
+                    btnText.innerHTML = "Saiba mais"; 
+                    moreText.style.display = "none";
+                  } else {
+                    dots.style.display = "none";
+                    btnText.innerHTML = "Saiba menos"; 
+                    moreText.style.display = "inline";
+                  }
+                }
+                </script>  
+    </div>
+
+    <a href=""><button class="comprar">COMPRAR</button></a>
+
+
+    <br><br><br>
+
+    <div class="adicionais">
+    
+    <li>Creme de textura leve e absorção rápida, mas com uma potente
+        hidratação e nutrição.</li>
+    <li>Com Ácido Hialurônico em 3 diferentes pesos moleculares, que 
+        garante hidratação profunda e duradoura em todas camadas da pele.</li>
+    <li>O Pantenol (pró Vitamina B5) garante a ação reparadora da 
+        barreira cutânea pra mante-la saudável e integra.</li>
+    <li>E a Vitamina E tem ação antioxidante e protetora, ajudando a 
+        prevenir sinais de envelhecimento precoce, linhas finas e rugas.</li>
+    <li>Todos os tipos de peles se beneficiam desse creme, mas em 
+        especial as peles secas, ressecadas e maduras.</li>
+
+    </div>
+
+    <div class="compo">
+        <h2>Composição</h2>
+        <p class="justificar">Água, Monoestearato de Glicerila, Óleo de Amêndoas Doces, Ácido Esteárico, Álcool Cetílico, Dexpantenol, Olivato de Cetearila, Olivato de Sorbitano, Triglicerídeo de Ácido Cáprico Caprílico, Hialuronato de Sódio (Ácido Hialurônico), Tri-Heptanoína, Álcool Benzílico, Glicerol, Ácido Benzoico, Ácido Sórbico, Acetato de Racealfatocoferol, Óleo de Gerânio, Óleo de Lavanda, Citronelol, Geraniol, Dextrolimoneno, Linalol.</p>
+
+    </div>
+
+    <br><br>
+
+
+
+
+
+
+
+
+
+<footer class="padding footer fonte w3-center" id="footer">
+
+    <div class="contato">
+        <h4>LOJA</h4>
+        <p><i class="fa fa-fw fa-map-marker"></i> Charm Company</p>
+        <p><i class="fa fa-fw fa-phone"></i> 4002-8922</p>
+        <p><i class="fa fa-fw fa-envelope"></i> charm.contato@gmail.com</p>
+    </div>
+    <div class="pagamento">
+        <h4>NÓS ACEITAMOS</h4>
+        <p><i class="fa fa-fw fa-cc-amex"></i> Cartão de Crédito</p>
+        <p><i class="fa fa-fw fa-credit-card"></i> Cartão de Débito</p>
+        <p><i class="fa fa-fw fa-credit-card"></i> Boleto Bancário</p>
+    </div>
+
+    <img class="logo-rodape" src="img/marca.png">
+  </footer>
+
+</body>
+</html>
